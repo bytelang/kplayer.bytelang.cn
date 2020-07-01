@@ -1,0 +1,27 @@
+{
+  "name": "kplayer.bytelang.cn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bytelang/kplayer.bytelang.cn.git"
+  },
+  "keywords": [
+    "kplayer"
+  ],
+  "author": "bytelang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bytelang/kplayer.bytelang.cn/issues"
+  },
+  "homepage": "https://github.com/bytelang/kplayer.bytelang.cn#readme",
+  "dependencies": {
+    "vuepress": "^1.5.2",
+    "vuepress-theme-antdocs": "^1.1.1"
+  }
+}
