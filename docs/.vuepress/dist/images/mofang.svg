@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="526" height="504" viewBox="0 0 526 504">
+  <defs>
+    <linearGradient id="编组-16-b" x1="48.536%" x2="48.537%" y1="95.054%" y2="28.625%">
+      <stop offset="0%" stop-color="#535865"/>
+      <stop offset="47.16%" stop-color="#6C7282"/>
+      <stop offset="72.537%" stop-color="#7B8192"/>
+      <stop offset="76.752%" stop-color="#565C69"/>
+      <stop offset="100%" stop-color="#595F6C"/>
+    </linearGradient>
+    <polygon id="编组-16-a" points="84.982 0 169.838 49.001 169.838 147.004 85.148 220 .127 147.004 .127 49.001"/>
+    <linearGradient id="编组-16-c" x1="50%" x2="47.825%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#AFB3BD"/>
+      <stop offset="100%" stop-color="#474C59"/>
+    </linearGradient>
+    <linearGradient id="编组-16-f" x1="23.248%" x2="50%" y1="45.322%" y2="16.286%">
+      <stop offset="0%" stop-color="#3C4251"/>
+      <stop offset="100%" stop-color="#444A5A"/>
+    </linearGradient>
+    <polygon id="编组-16-e" points="88.982 0 173.838 49.001 173.838 147.004 88.982 216.006 0 168.006 0 52.324"/>
+    <linearGradient id="编组-16-g" x1="8.713%" x2="50%" y1="45.322%" y2="16.286%">
+      <stop offset="0%" stop-color="#3C4251"/>
+      <stop offset="100%" stop-color="#525866"/>
+    </linearGradient>
+    <linearGradient id="编组-16-i" x1="29.806%" x2="128.069%" y1="86.719%" y2="4.241%">
+      <stop offset="0%" stop-color="#AFB3BD"/>
+      <stop offset="100%" stop-color="#474C59"/>
+    </linearGradient>
+    <linearGradient id="编组-16-k" x1="4.591%" x2="50%" y1="42.857%" y2="76.177%">
+      <stop offset="0%" stop-color="#5C626F"/>
+      <stop offset="100%" stop-color="#4E535F"/>
+    </linearGradient>
+    <polygon id="编组-16-j" points="97.982 0 182.838 49.001 182.838 147.004 97.982 196.006 13.127 147.004 13.127 49.001"/>
+    <linearGradient id="编组-16-l" x1="8.713%" x2="50%" y1="45.322%" y2="16.286%">
+      <stop offset="0%" stop-color="#3C4251"/>
+      <stop offset="100%" stop-color="#444A5A"/>
+    </linearGradient>
+    <linearGradient id="编组-16-n" x1="8.41%" x2="152.313%" y1="73.238%" y2="75.477%">
+      <stop offset="0%" stop-color="#AFB3BD"/>
+      <stop offset="100%" stop-color="#474C59"/>
+    </linearGradient>
+    <linearGradient id="编组-16-p" x1="23.359%" x2="50%" y1="42.857%" y2="76.177%">
+      <stop offset="0%" stop-color="#5C626F"/>
+      <stop offset="100%" stop-color="#4E535F"/>
+    </linearGradient>
+    <polygon id="编组-16-o" points="84.982 0 173.2 53.266 173.2 177.35 84.982 226.006 .127 147.004 .127 49.001"/>
+    <linearGradient id="编组-16-q" x1="52.896%" x2="-24.884%" y1="95.066%" y2="15.341%">
+      <stop offset="0%" stop-color="#AFB3BD"/>
+      <stop offset="100%" stop-color="#474C59"/>
+    </linearGradient>
+    <polygon id="编组-16-s" points="97.982 0 182.838 49.001 182.838 147.004 97.982 196.006 13.127 147.004 13.127 49.001"/>
+    <linearGradient id="编组-16-u" x1="50%" x2="94.501%" y1="50%" y2="136.92%">
+      <stop offset="0%" stop-color="#AFB3BD"/>
+      <stop offset="1.035%" stop-color="#ACB0BA"/>
+      <stop offset="100%" stop-color="#474C59"/>
+    </linearGradient>
+    <polygon id="编组-16-v" points="97.982 0 182.838 49.001 182.838 147.004 97.982 196.006 13.127 147.004 13.127 49.001"/>
+    <linearGradient id="编组-16-x" x1="82.287%" x2="-37.907%" y1="71.078%" y2="82.844%">
+      <stop offset="0%" stop-color="#AFB3BD"/>
+      <stop offset="100%" stop-color="#474C59"/>
+    </linearGradient>
+    <polygon id="编组-16-y" points="97.982 0 182.838 49.001 182.838 147.004 97.982 196.006 13.127 147.004 13.127 49.001"/>
+    <linearGradient id="编组-16-A" x1="67.368%" x2="-28.201%" y1="60.702%" y2="139.367%">
+      <stop offset="0%" stop-color="#AFB3BD"/>
+      <stop offset="100%" stop-color="#474C59"/>
+    </linearGradient>
+    <polygon id="编组-16-B" points="97.982 0 182.838 49.001 182.838 147.004 97.982 196.006 13.127 147.004 13.127 49.001"/>
+    <linearGradient id="编组-16-D" x1="50%" x2="50%" y1="50%" y2="110.803%">
+      <stop offset="0%" stop-color="#AFB3BD"/>
+      <stop offset="100%" stop-color="#474C59"/>
+    </linearGradient>
+    <linearGradient id="编组-16-E" x1="66.169%" x2="66.169%" y1="54.003%" y2="-19.769%">
+      <stop offset="0%" stop-color="#00922A" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#00922A"/>
+    </linearGradient>
+    <linearGradient id="编组-16-F" x1="37.953%" x2="55.885%" y1="53.643%" y2="0%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#00922A"/>
+    </linearGradient>
+    <linearGradient id="编组-16-H" x1="4.572%" x2="50%" y1="44.057%" y2="71.78%">
+      <stop offset="0%" stop-color="#707786"/>
+      <stop offset="100%" stop-color="#686C79"/>
+    </linearGradient>
+    <polygon id="编组-16-G" points="84.982 .202 169.838 49.204 169.838 106.004 84.982 155.006 .127 106.004 .127 49.204"/>
+    <linearGradient id="编组-16-I" x1="8.713%" x2="50%" y1="45.322%" y2="16.286%">
+      <stop offset="0%" stop-color="#535967"/>
+      <stop offset="100%" stop-color="#5D6476"/>
+    </linearGradient>
+    <linearGradient id="编组-16-K" x1="9.414%" x2="126.182%" y1="72.173%" y2="76.803%">
+      <stop offset="0%" stop-color="#E6E7ED"/>
+      <stop offset="100%" stop-color="#53575F"/>
+    </linearGradient>
+    <linearGradient id="编组-16-M" x1="25.894%" x2="21.312%" y1="20.773%" y2="88.972%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#C0FFE9"/>
+    </linearGradient>
+    <polygon id="编组-16-L" points="84.061 .775 169.62 52.29 169.638 148.79 84.061 195.775 .54 145.838 .523 49.338"/>
+    <linearGradient id="编组-16-O" x1="48.636%" x2="51.45%" y1="79.564%" y2="12.894%">
+      <stop offset="0%" stop-color="#70D69D"/>
+      <stop offset="100%" stop-color="#2CC47A"/>
+    </linearGradient>
+    <linearGradient id="编组-16-P" x1="120.818%" x2="-42.572%" y1="-6.746%" y2="15.636%">
+      <stop offset="0%" stop-color="#26AF5A"/>
+      <stop offset="100%" stop-color="#B2E7C0"/>
+    </linearGradient>
+    <linearGradient id="编组-16-Q" x1="62.479%" x2="59.609%" y1="39.106%" y2="125.312%">
+      <stop offset="0%" stop-color="#00925F"/>
+      <stop offset="100%" stop-color="#90E5A2"/>
+    </linearGradient>
+    <linearGradient id="编组-16-R" x1="49.284%" x2="50.761%" y1="79.564%" y2="12.894%">
+      <stop offset="0%" stop-color="#70D69D"/>
+      <stop offset="100%" stop-color="#2CC47A"/>
+    </linearGradient>
+    <linearGradient id="编组-16-S" x1="120.818%" x2="-42.572%" y1="-6.8%" y2="15.603%">
+      <stop offset="0%" stop-color="#26AF5A"/>
+      <stop offset="100%" stop-color="#B2E7C0"/>
+    </linearGradient>
+    <linearGradient id="编组-16-T" x1="56.75%" x2="55.198%" y1="39.106%" y2="125.312%">
+      <stop offset="0%" stop-color="#00925F"/>
+      <stop offset="100%" stop-color="#90E5A2"/>
+    </linearGradient>
+    <linearGradient id="编组-16-U" x1="47.563%" x2="52.591%" y1="79.564%" y2="12.894%">
+      <stop offset="0%" stop-color="#70D69D"/>
+      <stop offset="100%" stop-color="#2CC47A"/>
+    </linearGradient>
+    <linearGradient id="编组-16-V" x1="120.818%" x2="-42.572%" y1="-6.351%" y2="15.875%">
+      <stop offset="0%" stop-color="#26AF5A"/>
+      <stop offset="100%" stop-color="#B2E7C0"/>
+    </linearGradient>
+    <linearGradient id="编组-16-W" x1="71.511%" x2="66.565%" y1="39.106%" y2="125.312%">
+      <stop offset="0%" stop-color="#00925F"/>
+      <stop offset="100%" stop-color="#90E5A2"/>
+    </linearGradient>
+    <linearGradient id="编组-16-X" x1="8.736%" x2="36.561%" y1="18.025%" y2="57.283%">
+      <stop offset="0%" stop-color="#00B072" stop-opacity=".235"/>
+      <stop offset="100%" stop-color="#28EAA6"/>
+    </linearGradient>
+    <linearGradient id="编组-16-Y" x1="50%" x2="32.527%" y1="50%" y2="99.488%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#9EFFDD" stop-opacity=".692"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-12.352 -71)">
+    <g transform="translate(0 169.737)">
+      <g transform="translate(190.352 .885)">
+        <mask id="编组-16-d" fill="#fff">
+          <use xlink:href="#编组-16-a"/>
+        </mask>
+        <use fill="url(#编组-16-b)" fill-rule="nonzero" xlink:href="#编组-16-a"/>
+        <polygon fill="url(#编组-16-c)" fill-rule="nonzero" points="84.982 -97.642 169.838 -48.64 169.838 49.363 84.982 98.364 .127 49.363 .127 -48.64" mask="url(#编组-16-d)"/>
+      </g>
+      <g transform="translate(275.036 51.873)">
+        <mask id="编组-16-h" fill="#fff">
+          <use xlink:href="#编组-16-e"/>
+        </mask>
+        <use fill="url(#编组-16-f)" fill-rule="nonzero" xlink:href="#编组-16-e"/>
+        <polygon fill="url(#编组-16-g)" fill-rule="nonzero" points="174.717 48.363 259.572 97.364 259.572 195.367 174.717 244.368 89.862 195.367 89.862 97.364" mask="url(#编组-16-h)"/>
+        <polygon fill="url(#编组-16-i)" fill-rule="nonzero" points="88.982 -97.642 173.838 -48.64 173.838 49.363 88.982 98.364 4.127 49.363 4.127 -48.64" mask="url(#编组-16-h)"/>
+      </g>
+      <g transform="translate(354.805 104.197)">
+        <mask id="编组-16-m" fill="#fff">
+          <use xlink:href="#编组-16-j"/>
+        </mask>
+        <use fill="url(#编组-16-k)" fill-rule="nonzero" xlink:href="#编组-16-j"/>
+        <polygon fill="url(#编组-16-l)" fill-rule="nonzero" points="182.717 49.363 267.572 98.364 267.572 196.367 182.717 245.368 97.862 196.367 97.862 98.364" mask="url(#编组-16-m)"/>
+        <polygon fill="url(#编组-16-n)" fill-rule="nonzero" points="97.982 -97.642 182.838 -48.64 182.838 49.363 97.982 98.364 13.127 49.363 13.127 -48.64" mask="url(#编组-16-m)"/>
+      </g>
+      <g transform="translate(102.134 52.98)">
+        <mask id="编组-16-r" fill="#fff">
+          <use xlink:href="#编组-16-o"/>
+        </mask>
+        <use fill="url(#编组-16-p)" fill-rule="nonzero" xlink:href="#编组-16-o"/>
+        <polygon fill="url(#编组-16-q)" fill-rule="nonzero" points="84.982 -97.642 169.838 -48.64 169.838 49.363 84.982 98.364 .127 49.363 .127 -48.64" mask="url(#编组-16-r)"/>
+      </g>
+      <g transform="translate(267.144 156.102)">
+        <mask id="编组-16-t" fill="#fff">
+          <use xlink:href="#编组-16-s"/>
+        </mask>
+        <use fill="url(#编组-16-k)" fill-rule="nonzero" xlink:href="#编组-16-s"/>
+        <polygon fill="url(#编组-16-l)" fill-rule="nonzero" points="182.717 49.363 267.572 98.364 267.572 196.367 182.717 245.368 97.862 196.367 97.862 98.364" mask="url(#编组-16-t)"/>
+        <polygon fill="url(#编组-16-u)" fill-rule="nonzero" points="97.982 -97.642 182.838 -48.64 182.838 49.363 97.982 98.364 13.127 49.363 13.127 -48.64" mask="url(#编组-16-t)"/>
+      </g>
+      <g transform="translate(0 104.885)">
+        <mask id="编组-16-w" fill="#fff">
+          <use xlink:href="#编组-16-v"/>
+        </mask>
+        <use fill="url(#编组-16-k)" fill-rule="nonzero" xlink:href="#编组-16-v"/>
+        <polygon fill="url(#编组-16-g)" fill-rule="nonzero" points="182.717 49.363 267.572 98.364 267.572 196.367 182.717 245.368 97.862 196.367 97.862 98.364" mask="url(#编组-16-w)"/>
+        <polygon fill="url(#编组-16-x)" fill-rule="nonzero" points="97.982 -97.642 182.838 -48.64 182.838 49.363 97.982 98.364 13.127 49.363 13.127 -48.64" mask="url(#编组-16-w)"/>
+      </g>
+      <g transform="translate(89.295 156.683)">
+        <mask id="编组-16-z" fill="#fff">
+          <use xlink:href="#编组-16-y"/>
+        </mask>
+        <use fill="url(#编组-16-k)" fill-rule="nonzero" xlink:href="#编组-16-y"/>
+        <polygon fill="url(#编组-16-g)" fill-rule="nonzero" points="182.717 49.363 267.572 98.364 267.572 196.367 182.717 245.368 97.862 196.367 97.862 98.364" mask="url(#编组-16-z)"/>
+        <polygon fill="url(#编组-16-A)" fill-rule="nonzero" points="97.982 -97.642 182.838 -48.64 182.838 49.363 97.982 98.364 13.127 49.363 13.127 -48.64" mask="url(#编组-16-z)"/>
+      </g>
+      <g transform="translate(179.063 209.007)">
+        <mask id="编组-16-C" fill="#fff">
+          <use xlink:href="#编组-16-B"/>
+        </mask>
+        <use fill="url(#编组-16-k)" fill-rule="nonzero" xlink:href="#编组-16-B"/>
+        <polygon fill="url(#编组-16-l)" fill-rule="nonzero" points="182.717 49.363 267.572 98.364 267.572 196.367 182.717 245.368 97.862 196.367 97.862 98.364" mask="url(#编组-16-C)"/>
+        <polygon fill="url(#编组-16-D)" fill-rule="nonzero" points="97.982 -97.642 182.838 -48.64 182.838 49.363 97.982 98.364 13.127 49.363 13.127 -48.64" mask="url(#编组-16-C)"/>
+      </g>
+    </g>
+    <g transform="translate(86.352)">
+      <polygon fill="url(#编组-16-E)" points="104.7 256.196 104.7 368.186 190.417 413.781 188.451 281.819"/>
+      <polygon fill="url(#编组-16-F)" points="188.7 256.196 188.7 368.186 274.417 413.781 273.577 281.819" transform="matrix(-1 0 0 1 463.116 0)"/>
+      <g transform="rotate(27 67.78 287.889)">
+        <g transform="rotate(-27 365.022 -13.365)">
+          <mask id="编组-16-J" fill="#fff">
+            <use xlink:href="#编组-16-G"/>
+          </mask>
+          <use fill="url(#编组-16-H)" fill-rule="nonzero" xlink:href="#编组-16-G"/>
+          <polygon fill="url(#编组-16-I)" fill-rule="nonzero" points="169.717 9.363 254.572 58.364 254.572 156.367 169.717 205.368 84.862 156.367 84.862 58.364" mask="url(#编组-16-J)"/>
+          <polygon fill="url(#编组-16-K)" fill-rule="nonzero" points="84.965 -99.642 170.701 -50.142 170.701 48.858 84.965 98.358 -.772 48.858 -.772 -50.142" mask="url(#编组-16-J)"/>
+        </g>
+        <g transform="rotate(-28 160.907 39.4)">
+          <mask id="编组-16-N" fill="#fff">
+            <use xlink:href="#编组-16-L"/>
+          </mask>
+          <use fill="url(#编组-16-M)" fill-rule="nonzero" opacity=".098" xlink:href="#编组-16-L"/>
+          <g mask="url(#编组-16-N)">
+            <g transform="translate(39.49 24.54)">
+              <g transform="translate(0 19.332)">
+                <polygon fill="url(#编组-16-O)" fill-rule="nonzero" points=".341 92.239 .341 13.327 15.186 21.469 15.186 100.515"/>
+                <polygon fill="url(#编组-16-P)" fill-rule="nonzero" points=".333 13.327 22.622 .077 37.456 8.203 15.195 21.476"/>
+                <polygon fill="url(#编组-16-Q)" fill-rule="nonzero" points="15.192 100.453 37.461 87.186 37.461 8.2 15.192 21.476"/>
+              </g>
+              <g transform="translate(24.706 .151)">
+                <polygon fill="url(#编组-16-R)" fill-rule="nonzero" points=".312 125.465 .312 13.378 15.157 21.524 15.157 133.745"/>
+                <polygon fill="url(#编组-16-S)" fill-rule="nonzero" points=".304 13.378 22.594 .122 37.428 8.251 15.166 21.531"/>
+                <polygon fill="url(#编组-16-T)" fill-rule="nonzero" points="15.164 133.683 37.433 120.409 37.433 8.249 15.164 21.53"/>
+              </g>
+              <g transform="translate(49.885 69.878)">
+                <polygon fill="url(#编组-16-U)" fill-rule="nonzero" points=".284 70.427 .284 13.458 15.129 21.572 15.129 78.674"/>
+                <polygon fill="url(#编组-16-V)" fill-rule="nonzero" points=".276 13.458 22.566 .254 37.4 8.352 15.138 21.578"/>
+                <polygon fill="url(#编组-16-W)" fill-rule="nonzero" points="15.136 78.612 37.404 65.391 37.404 8.349 15.136 21.578"/>
+              </g>
+            </g>
+          </g>
+          <polygon fill="url(#编组-16-X)" fill-rule="nonzero" points="168.166 53.251 252.604 101.751 252.604 198.751 168.166 247.251 83.729 198.751 83.729 101.751" mask="url(#编组-16-N)" opacity=".07"/>
+          <polygon fill="url(#编组-16-Y)" fill-rule="nonzero" points="84.71 -93.228 169.147 -44.728 169.147 52.272 84.71 100.772 .272 52.272 .272 -44.728" mask="url(#编组-16-N)" opacity=".07"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

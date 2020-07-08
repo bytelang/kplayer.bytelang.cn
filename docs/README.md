@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://zdata.zhigui.com/customer/images/zhishu_mofang/mofang.svg
+heroImage: /images/mofang.svg
 heroText: KPlayer
 tagline: KPlayer – 为GraphicalLess而生的直播推流工具
 actionText: 快速上手 →

@@ -1,3 +1,6 @@
 .idea
 .DS_Store
 node_modules
+Makefile
+deployment.yaml
+dist
