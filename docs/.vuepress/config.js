@@ -9,6 +9,7 @@ module.exports = {
 		sidebarDepth: 6,
 		displayAllHeaders: true,
 		nav: [
+			{text: '添加QQ讨论群', link: '/more/qq_group'},
 			{text: '插件下载', link: '/plugin/guide'},
 			{text: '在github上编辑此站点', link: 'https://github.com/bytelang/kplayer.bytelang.cn', target: '_blank'}
 		],

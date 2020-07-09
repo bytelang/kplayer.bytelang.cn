@@ -34,8 +34,13 @@ footer: Copyright © 2019-present ByteLang Studio
 ## 谁在使用kplayer :yum:
 <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap-grid.min.css" rel="stylesheet">
 <div class="row" style="padding-bottom: 1rem">
-<div class="col-md-4">
-<a target="_blank" href="https://live.bilibili.com/21292394">
-吧唧吧唧天依酱</a>
-</div>
+    <div class="col-md-3">
+        <a target="_blank" href="https://live.bilibili.com/21292394">吧唧吧唧天依酱</a>
+    </div>
+    <div class="col-md-3">
+        <a target="_blank" href="https://www.douyu.com/8960704">铁棒抡少妇</a>
+    </div>
+    <div class="col-md-3">
+        <a target="_blank" href="https://live.bilibili.com/22342347">simplerl</a>
+    </div>
 </div>
