@@ -28,7 +28,8 @@ player:
   output:
     type: rtmp
     auto_reconnect: true
-    cache: true
+    cache_use: true
+    cache_path: /tmp/kplayer
     path:
       - "rtmp://127.0.0.1:1379/live"
       - "rtmp://127.0.0.1:1379/push"
