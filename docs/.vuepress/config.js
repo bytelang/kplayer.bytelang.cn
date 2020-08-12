@@ -1,4 +1,5 @@
 let versions = [
+	'v0.3.8',
 	'v0.3.7',
 	'v0.3.6',
 ];
@@ -30,14 +31,21 @@ module.exports = {
 			},
 			{text: '添加QQ讨论群', link: '/more/qq_group'},
 			{text: '插件下载', link: '/more/plugin'},
-			{text: 'API调用工具', link: '/' + versions[0] + '/dashboard/index.html'},
+			{
+				text: 'API调用工具',
+				items: [{
+					text: 'v1',
+					link: '/more/dashboard/v1',
+				}],
+			},
 			{text: '在github上编辑此站点', link: 'https://github.com/bytelang/kplayer.bytelang.cn', target: '_blank'}
 		],
 		sidebar: {
 			'/v0.3.6/': require('./version/0.3.6'),
 			'/v0.3.7/': require('./version/0.3.7'),
+			'/v0.3.8/': require('./version/0.3.8'),
 			'/more/': require('./version/0.3.7'),
-			'/*/dashboard': null,
+			'/more/dashboard': null,
 		}
 	}
 };

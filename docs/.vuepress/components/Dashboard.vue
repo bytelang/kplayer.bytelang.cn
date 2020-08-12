@@ -65,10 +65,10 @@
 		name: "DashboardSidebar",
 		data(){
 			return {
-				host: 'http://127.0.0.1:4156',
+				host: 'http://127.0.0.1:4156/v1',
 				run: {},
 				response: '{}',
-				prefix: '/v1',
+				prefix: '',
 				items: [
 					{
 						group_title: '媒体资源',
@@ -264,11 +264,11 @@
 		display: flex;
 	}
 	
-	.group-title{
+	.group-title {
 		color: #999;
 	}
 	
-	.group-title:hover{
+	.group-title:hover {
 		color: #999 !important;
 		cursor: default !important;
 	}
@@ -333,7 +333,7 @@
 		font-size: 11px;
 	}
 	
-	/deep/ form{
+	/deep/ form {
 		width: 100%;
 	}
 </style>
