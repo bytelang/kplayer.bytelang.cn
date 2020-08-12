@@ -24,6 +24,14 @@
 					<hr>
 					
 					<div class="form-group">
+						<label for="path">请求路径</label>
+						<input class="shadow-lg bg-white rounded" style="background: #eee !important;" disabled v-model="run.path"/>
+						<small id="path" class="form-text text-muted">接口请求地址</small>
+					</div>
+					
+					<hr>
+					
+					<div class="form-group">
 						<label for="query">请求参数</label>
 						<small id="query" class="form-text text-muted">请求参数(QueryString)</small>
 					</div>
