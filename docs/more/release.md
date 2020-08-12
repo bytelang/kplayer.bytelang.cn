@@ -5,6 +5,13 @@ title: 发布历史
 发布历史
 ===
 
+## v0.3.8
+2020-8-12
+* 更新plugin驱动版本，支持更为丰富的插件行为
+* 修复API在经过浏览器调用时造成的跨域错误问题
+
+> [kplayer-v0.3.8-linux_amd64.tar.gz](http://download.bytelang.cn/kplayer-v0.3.8-linux_amd64.tar.gz)
+
 ## v0.3.7
 2020-7-16
 * 添加-g参数，提供预生成缓存文件功能
