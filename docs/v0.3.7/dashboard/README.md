@@ -1,0 +1,18 @@
+---
+title: API在线调用工具
+sidebar: false
+---
+
+<h1 style="text-align: center; margin-top: -4rem;">API在线调用工具</h1>
+<hr>
+
+<link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<style>
+.theme-default-content:not(.custom) {
+    max-width: 100%;
+}
+
+</style>
+<div class="main">
+    <Dashboard/>
+</div>

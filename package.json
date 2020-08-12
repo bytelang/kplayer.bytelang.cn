@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/bytelang/kplayer.bytelang.cn#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "vuepress": "^1.5.2",
     "vuepress-theme-antdocs": "^1.1.1"
   }

@@ -17,7 +17,7 @@ Kplayer还未进行各平台二进制包 *(dep,rpm...)* 等安装途径。我们
 
 找到合适的目录。运行以下代码，下载并解压当前最终发布版本的kplayer程序
 ```shell script
-[kplayer@hostname]$ wget https://kplayer.bytelang.cn/kplayer-latest-linux_amd64.tar.gz
+[kplayer@hostname]$ wget http://download.bytelang.cn/kplayer-latest-linux_amd64.tar.gz
 [kplayer@hostname]$ tar zxvf kplayer-latest-linux_amd64.tar.gz
 x kplayer
 x kplayer.yaml.exmale
