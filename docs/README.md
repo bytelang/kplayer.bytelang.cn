@@ -3,8 +3,8 @@ home: true
 heroImage: /images/mofang.svg
 heroText: KPlayer
 tagline: KPlayer – 为GraphicalLess而生的直播推流工具
-actionText: 快速上手 (v0.3.8) →
-actionLink: /v0.3.8/guide/install
+actionText: 快速上手 (v0.4.3) →
+actionLink: /v0.4.3/guide/install
 features:
 - title: 快速便捷的直播视频资源
   details: 只需要下载目标文件，对配置文件进行简单的修改即可享受方便快捷的视频资源直播体验
@@ -29,6 +29,10 @@ footer: Copyright © 2019-present ByteLang Studio
 > #### 高效的编解码效率，多视频格式
 
 对编解码CPU占用进行优化、内存管理优化。提供高效稳定的运行版本
+
+> #### 支持HTTP API接口控制kplayer的资源列表与播放行为
+
+提供丰富的http接口满足播放文件资源、插件的增加、删除。暂停、继续等api接口
 
 
 ## 谁在使用kplayer :yum:

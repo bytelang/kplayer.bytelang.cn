@@ -22,7 +22,15 @@
 					</div>
 					
 					<hr>
-					
+
+					<div class="form-group">
+                    	<label for="host">请求方法</label>
+						<input class="shadow-lg bg-white rounded" style="background: #eee !important;" disabled v-model="run.method"/>
+						<small id="path" class="form-text text-muted">接口请求地址</small>
+                   	</div>
+
+                	<hr>
+
 					<div class="form-group">
 						<label for="path">请求路径</label>
 						<input class="shadow-lg bg-white rounded" style="background: #eee !important;" disabled v-model="run.path"/>
