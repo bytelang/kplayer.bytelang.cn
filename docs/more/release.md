@@ -5,6 +5,14 @@ title: 发布历史
 发布历史
 ===
 
+## v0.4.6-beta
+2021-01-04
+* 新增网络输入流资源
+* 更新插件版本至1.3.0，提供更准备的播放状态获取
+* 修复插件task任务异常死锁问题
+
+> [kplayer-v0.4.6-beta-linux_amd64.tar.gz](http://download.bytelang.cn/kplayer-v0.4.6-beta-linux_amd64.tar.gz)
+
 ## v0.4.3
 2020-12-18
 * 添加图片、音频资源类型remix输入类型

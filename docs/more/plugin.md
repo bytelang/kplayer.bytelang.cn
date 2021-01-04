@@ -89,3 +89,32 @@ plugin:
 ```
 * [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowImagePlugin.so)
 * [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowImagePlugin.so)
+
+### VideoShowProcessPlugin
+VideoShowProcessPlugin提供视频播放过程中，指定位置添加当前播放媒体资源文件进度条。样式为"00:00:00 / 00:00:00"
+```yaml
+plugin:
+  - file: "libVideoShowProcessPlugin"
+    params:
+      font_size: 17 # 字体大小
+      font_color: white # 文字颜色
+      x: "100" # x坐标
+      y: "100" # y坐标
+```
+* [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowProcessPlugin.so)
+
+### VideoShowPlayListPlugin
+VideoShowPlayListPlugin提供视频播放过程中，指定位置添加当前播放媒体资源列表打印
+```yaml
+plugin:
+  - file: "libVideoShowPlayListPlugin"
+    params:
+      font_size: 17 # 字体大小
+      font_color: white # 文字颜色
+      x: "100" # x坐标
+      y: "100" # y坐标
+      line_height: 15 # 上下行间距
+      show_extension: false # 是否显示文件扩展名（后缀名）
+      count: 5 # 设置显示至多媒体文件数量
+```
+* [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowPlayListPlugin.so)
