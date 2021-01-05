@@ -28,6 +28,7 @@ plugin:
 * [v1.0.2](http://download.bytelang.cn/plugin/v1.0.2/libVideoShowFileNamePlugin.so)
 * [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowFileNamePlugin.so)
 * [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowFileNamePlugin.so)
+* [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowFileNamePlugin.so)
 
 ---
 
@@ -45,6 +46,7 @@ plugin:
 * [v1.0.2](http://download.bytelang.cn/plugin/v1.0.2/libVideoShowCurrentTimePlugin.so)
 * [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowCurrentTimePlugin.so)
 * [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowCurrentTimePlugin.so)
+* [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowCurrentTimePlugin.so)
 
 ---
 
@@ -63,6 +65,7 @@ plugin:
 * [v1.0.2](http://download.bytelang.cn/plugin/v1.0.2/libVideoShowFileNamePlugin.so)
 * [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowFileNamePlugin.so)
 * [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowFileNamePlugin.so)
+* [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowFileNamePlugin.so)
 
 ---
 
@@ -74,6 +77,7 @@ plugin:
 ```
 * [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowSubtitlePlugin.so)
 * [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowSubtitlePlugin.so)
+* [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowSubtitlePlugin.so)
 
 ---
 
@@ -89,6 +93,7 @@ plugin:
 ```
 * [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowImagePlugin.so)
 * [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowImagePlugin.so)
+* [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowImagePlugin.so)
 
 ### VideoShowProcessPlugin
 VideoShowProcessPlugin提供视频播放过程中，指定位置添加当前播放媒体资源文件进度条。样式为"00:00:00 / 00:00:00"
