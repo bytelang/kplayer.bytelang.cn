@@ -5,13 +5,20 @@ title: 发布历史
 发布历史
 ===
 
-## v0.4.6-beta
-2021-01-04
+## v0.4.6-beta2
+2021-01-22
 * 新增网络输入流资源
 * 更新插件版本至1.3.0，提供更准备的播放状态获取
 * 修复插件task任务异常死锁问题
+* 添加主程序编解码进度条效果
+* 更新缓存命中规则
+* 修复低配机器异常情况下插件造成的死锁问题
+* 大幅优化图音格式的Remix编码功能
+* 修复API过去输入资源未返回资源unqie name的问题
+* 修复字幕插件无法实例化的问题
 
-> [kplayer-v0.4.6-beta-linux_amd64.tar.gz](http://download.bytelang.cn/kplayer-v0.4.6-beta-linux_amd64.tar.gz)
+
+> [kplayer-v0.4.6-beta2-10-gc96eb76-linux_amd64.tar.gz](http://download.bytelang.cn/kplayer-v0.4.6-beta2-10-gc96eb76-linux_amd64.tar.gz)
 
 ## v0.4.3
 2020-12-18

@@ -1,12 +1,14 @@
 ---
-title: bit_rate
+title: quality
 ---
 
-bit_rate
+quality
 ===
 
 ### 说明
-配置输出平均比特率。单位为k
+配置输出视频资源质量
+
+取值区间为**0-20**(取值越大，压缩程度越高。视频清晰度降低、比特率与网络资源占用更小)
 
 ### 类型
 | 数据类型 | 是否必填 | 默认值 |
@@ -18,5 +20,5 @@ bit_rate
 version: "1.1.0"
 player:
   encode:
-    bit_rate: 2000000
+    quality: 10
 ```

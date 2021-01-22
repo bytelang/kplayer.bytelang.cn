@@ -18,5 +18,5 @@ bit_rate
 version: "1.0"
 player:
   encode:
-    bit_rate: 2000
+    bit_rate: 2000000
 ```
