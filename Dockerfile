@@ -6,5 +6,5 @@
 
 # image
 FROM nginx:alpine
-COPY ./docs/.vuepress/public/images/mofang.pngt /usr/share/nginx/html/logo.png
+COPY ./docs/.vuepress/public/images/mofang.png /usr/share/nginx/html/logo.png
 COPY ./docs/.vuepress/dist /usr/share/nginx/html
