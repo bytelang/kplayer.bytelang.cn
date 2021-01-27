@@ -15,7 +15,7 @@ v0.3.6版本后只需要配置相应插件，kplayer将会自动从插件商城�
 VideoShowTextPlugin 提供视频播放过程中，在指定位置显示指定文本
 ```yaml
 plugin:
-  - file: "libVideoShowFileNamePlugin"
+  - file: "libVideoShowTextPlugin"
     params:
       font_size: "17"     # 字号
       font_color: "white" # 颜色属性
@@ -23,12 +23,12 @@ plugin:
       x: "100" # x坐标 
       y: "100" # y坐标
 ```
-* [v1.0.0](http://download.bytelang.cn/plugin/v1.0.0/libVideoShowFileNamePlugin.so)
-* [v1.0.1](http://download.bytelang.cn/plugin/v1.0.1/libVideoShowFileNamePlugin.so)
-* [v1.0.2](http://download.bytelang.cn/plugin/v1.0.2/libVideoShowFileNamePlugin.so)
-* [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowFileNamePlugin.so)
-* [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowFileNamePlugin.so)
-* [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowFileNamePlugin.so)
+* [v1.0.0](http://download.bytelang.cn/plugin/v1.0.0/libVideoShowTextPlugin.so)
+* [v1.0.1](http://download.bytelang.cn/plugin/v1.0.1/libVideoShowTextPlugin.so)
+* [v1.0.2](http://download.bytelang.cn/plugin/v1.0.2/libVideoShowTextPlugin.so)
+* [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowTextPlugin.so)
+* [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowTextPlugin.so)
+* [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowTextPlugin.so)
 
 ---
 
