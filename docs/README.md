@@ -3,8 +3,8 @@ home: true
 heroImage: /images/mofang.svg
 heroText: KPlayer
 tagline: KPlayer – 为GraphicalLess而生的直播推流工具
-actionText: 快速上手 (v0.4.3) →
-actionLink: /v0.4.3/guide/install
+actionText: 快速上手 (v0.4.6) →
+actionLink: /v0.4.6/guide/install
 features:
 - title: 快速便捷的直播视频资源
   details: 只需要下载目标文件，对配置文件进行简单的修改即可享受方便快捷的视频资源直播体验

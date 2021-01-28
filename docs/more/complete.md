@@ -10,10 +10,13 @@ version: "1.0.0"
 player:
   media:
     list:
+      - video: "/user/media/video/image1.jpg"
+        audio: "/user/media/video/audio1.mp3"
       - "/user/media/video/video1.mp4"
       - "/user/media/video/video2.mp4"
       - "/user/media/video/video3.mp4"
     start: 1
+    process_bar: true
   decode:
     type: file
 
@@ -40,6 +43,7 @@ player:
 
   api:
     use_api: true
+    port: 4156
 
   plugin:
     - file: "libVideoShowTextPlugin"
