@@ -8,6 +8,12 @@ title: 安装
 ### 兼容性
 Kplayer目前仅支持Linux_amd_x86_64环境上运行。在后续的版本迭代中我们将会陆续针对不同操作系统与不同发行版本进行跨平台支持，目前仍需要针对不同平台的差异化进行处理。
 
+### 最新版本
+你可以随时通过下方链接获取kplayer当前的最新稳定版本  
+* Linux x86_64: 
+> [http://download.bytelang.cn/kplayer-latest-linux_amd64.tar.gz](http://download.bytelang.cn/kplayer-latest-linux_amd64.tar.gz)
+
+
 ### 下载安装
 
 #### Linux
