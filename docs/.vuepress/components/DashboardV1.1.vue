@@ -42,12 +42,15 @@
 
           <div class="form-group">
             <label for="query">请求参数</label>
-            <small id="query" class="form-text text-muted">请求参数(QueryString)</small>
+            <small id="query" class="form-text text-muted">请求参数(QueryString), *号为必选参数</small>
           </div>
           <div class="form-group" v-for="(v,k) in run.query" :key="k">
             <div class="row">
-              <label class="col-md-2" for="data">{{ v.key }}</label>
-              <input class="col-md-10 shadow-lg bg-white rounded" :placeholder="v.placeholder" v-model="v.value"/>
+              <label class="col-md-3" for="data">
+                <span v-if="v.required" class="text-danger">*</span>
+                {{ v.key }}
+              </label>
+              <input class="col-md-8 shadow-lg bg-white rounded" :placeholder="v.placeholder" v-model="v.value"/>
             </div>
           </div>
 
@@ -55,12 +58,15 @@
           <!--表单参数-->
           <div class="form-group">
             <label for="data">表单参数</label>
-            <small id="data" class="form-text text-muted">表单参数(PostData)</small>
+            <small id="data" class="form-text text-muted">表单参数(PostData), *号为必选参数</small>
           </div>
           <div class="form-group" v-for="(v,k) in run.data" :key="k">
             <div class="row">
-              <label class="col-md-2" for="data">{{ v.key }}</label>
-              <input class="col-md-10 shadow-lg bg-white rounded" :placeholder="v.placeholder" v-model="v.value"/>
+              <label class="col-md-3" for="data">
+                <span v-if="v.required" class="text-danger">*</span>
+                {{ v.key }}
+              </label>
+              <input class="col-md-8 shadow-lg bg-white rounded" :placeholder="v.placeholder" v-model="v.value"/>
             </div>
           </div>
           <div class="form-group">
@@ -210,8 +216,9 @@ export default {
               path: '/plugin',
               query: [],
               data: [
-                {key: 'file_name', type: 'string', required: true, placeholder: '插件命名名称'},
+                {key: 'file', type: 'string', required: true, placeholder: '插件命名名称'},
                 {key: 'params', type: 'json', required: false, placeholder: '插件参数(json格式)'},
+                {key: 'unique', type: 'string', required: false, placeholder: '插件自定义唯一标识'},
               ],
             },
             {
