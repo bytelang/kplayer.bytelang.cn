@@ -30,7 +30,7 @@ Available options:
 
 ### [-g]
 *-g*、*--generate_cache* 选项用于构建已配置媒体输入资源的缓存构建。  
-用于在非推流环境下预生成视频文件缓存(cache)解决，低配运行时硬件资源占用过大导致推流卡顿的情况
+用于在非推流环境下预生成视频文件缓存(cache)，解决低配服务器运行时因为硬件资源占用过大导致推流卡顿的情况
 ```shell script
 [kplayer@bytelang]$ ./kplayer -g
 ```
