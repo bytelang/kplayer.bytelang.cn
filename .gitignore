@@ -4,3 +4,4 @@ node_modules
 Makefile
 deployment.yaml
 dist
+build.sh
