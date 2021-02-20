@@ -23,6 +23,21 @@ module.exports = {
 	markdown: {
 		lineNumbers: true
 	},
+	head: [
+		[
+			"script",
+			{},
+			`
+      var _hmt = _hmt || [];
+          (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?3eedd7241cd30c908c8beba527aaa6b1";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+      })();
+			`
+		]
+	],
 	themeConfig: {
 		sidebarDepth: 6,
 		displayAllHeaders: true,
@@ -59,11 +74,3 @@ module.exports = {
 		}
 	}
 };
-
-var _hmt = _hmt || [];
-	(function() {
-	var hm = document.createElement("script");
-	hm.src = "https://hm.baidu.com/hm.js?3eedd7241cd30c908c8beba527aaa6b1";
-	var s = document.getElementsByTagName("script")[0];
-	s.parentNode.insertBefore(hm, s);
-})();
