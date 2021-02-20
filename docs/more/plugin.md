@@ -70,7 +70,7 @@ plugin:
 ---
 
 ### libVideoShowSubtitlePlugin
-libVideoShowSubtitlePlugin，自动寻找视频同级目录的字幕文件，仅支持srt字幕文件
+libVideoShowSubtitlePlugin，自动寻找视频同级目录的字幕文件，1.2.0与1.2.0以下版本仅支持srt字幕文件。1.3.0以上支持ass,srt,lrc字幕文件
 ```yaml
 plugin:
   - file: "libVideoShowSubtitlePlugin"
