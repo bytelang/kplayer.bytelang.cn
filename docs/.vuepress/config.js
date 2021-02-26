@@ -1,4 +1,5 @@
 let versions = [
+	'v0.4.7-beta1',
 	'v0.4.6',
 	'v0.4.3',
 	'v0.3.8',
@@ -69,6 +70,7 @@ module.exports = {
 			'/v0.3.8/': require('./version/0.3.8'),
 			'/v0.4.3/': require('./version/0.4.3'),
 			'/v0.4.6/': require('./version/0.4.6'),
+			'/v0.4.7-beta1/': require('./version/0.4.7-beta1'),
 			'/more/': require('./version/0.4.6'),
 			'/more/dashboard': null,
 		}

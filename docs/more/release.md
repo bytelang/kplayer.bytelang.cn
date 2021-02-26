@@ -5,7 +5,18 @@ title: 发布历史
 发布历史
 ===
 
-## v0.4.6-beta2
+## v0.4.7-beta1
+2021-02-26
+* 修复重断线连过程中因资源问题导致的内存泄漏
+* 删除因网络链接导致的水印显示未激活问题
+* 更新CopyRight年份获取规则
+* 添加播放模式，可选为队列（播放完成即删除）、随机（列表随机、不保证随机完整性）、列表（顺序播放）
+* 修复通过API跳过当前文件标记为缓存成功的问题，解决该问题造成的下次播放会记录上次跳过的播放进度
+
+
+> [kplayer-V0.4.7-beta1-linux_amd64.tar.gz](http://download.bytelang.cn/kplayer-V0.4.7-beta1-linux_amd64.tar.gz)
+
+## v0.4.6
 2021-01-22
 * 新增网络输入流资源
 * 更新插件版本至1.3.0，提供更准确的播放状态获取
@@ -18,7 +29,7 @@ title: 发布历史
 * 修复字幕插件无法实例化的问题
 
 
-> [kplayer-v0.4.6-beta2-10-gc96eb76-linux_amd64.tar.gz](http://download.bytelang.cn/kplayer-v0.4.6-beta2-10-gc96eb76-linux_amd64.tar.gz)
+> [kplayer-v0.4.6-linux_amd64.tar.gz](http://download.bytelang.cn/kplayer-v0.4.6-linux_amd64.tar.gz)
 
 ## v0.4.3
 2020-12-18
