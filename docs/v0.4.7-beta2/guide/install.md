@@ -19,12 +19,12 @@ Kplayer目前仅支持Linux_amd_x86_64环境上运行。在后续的版本迭代
 #### Linux
 Kplayer还未进行各平台二进制包 *(dep,rpm...)* 等安装途径。我们将依赖的相关库已静态编译至kplayer中，只需要在 `Linux内核版本>=3`与`glibc >=2.17`之上的依赖环境中直接运行
 
-> [http://download.bytelang.cn/kplayer-V0.4.7-beta1-linux_amd64.tar.gz](http://download.bytelang.cn/kplayer-V0.4.7-beta1-linux_amd64.tar.gz)
+> [http://download.bytelang.cn/kplayer-v0.4.7-beta2-linux_amd64.tar.gz](http://download.bytelang.cn/kplayer-v0.4.7-beta2-linux_amd64.tar.gz)
 
 找到合适的目录。运行以下代码，下载并解压当前最终发布版本的kplayer程序
 ```shell script
-[kplayer@hostname]$ wget http://download.bytelang.cn/kplayer-V0.4.7-beta1-linux_amd64.tar.gz
-[kplayer@hostname]$ tar zxvf kplayer-V0.4.7-beta1-linux_amd64.tar.gz
+[kplayer@hostname]$ wget http://download.bytelang.cn/kplayer-v0.4.7-beta2-linux_amd64.tar.gz
+[kplayer@hostname]$ tar zxvf kplayer-v0.4.7-beta2-linux_amd64.tar.gz
 x kplayer
 x kplayer.yaml.exmale
 ```

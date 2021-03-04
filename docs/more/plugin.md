@@ -29,6 +29,7 @@ plugin:
 * [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowTextPlugin.so)
 * [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowTextPlugin.so)
 * [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowTextPlugin.so)
+* [v1.3.1](http://download.bytelang.cn/plugin/v1.3.1/libVideoShowTextPlugin.so)
 
 ---
 
@@ -38,6 +39,8 @@ VideoShowCurrentTimePlugin提供视频播放过程中，在左上角显示当前
 plugin:
   - file: "libVideoShowCurrentTimePlugin"
     params:
+      x: "100"  # x坐标
+      y: "100"  # y坐标
       font_size: "17"     # 字号
       font_color: "white" # 颜色属性
 ```
@@ -47,6 +50,7 @@ plugin:
 * [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowCurrentTimePlugin.so)
 * [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowCurrentTimePlugin.so)
 * [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowCurrentTimePlugin.so)
+* [v1.3.1](http://download.bytelang.cn/plugin/v1.3.1/libVideoShowCurrentTimePlugin.so)
 
 ---
 
@@ -57,6 +61,9 @@ version: "1.0"
 plugin:
   - file: "libVideoShowFileNamePlugin"
     params:
+      x: "100"  # x坐标
+      y: "100"  # y坐标
+      show_extension: false  # 是否显示文件扩展名
       font_size: "17"     # 字号
       font_color: "white" # 颜色属性
 ```
@@ -66,6 +73,7 @@ plugin:
 * [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowFileNamePlugin.so)
 * [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowFileNamePlugin.so)
 * [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowFileNamePlugin.so)
+* [v1.3.1](http://download.bytelang.cn/plugin/v1.3.1/libVideoShowFileNamePlugin.so)
 
 ---
 
@@ -78,6 +86,7 @@ plugin:
 * [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowSubtitlePlugin.so)
 * [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowSubtitlePlugin.so)
 * [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowSubtitlePlugin.so)
+* [v1.3.1](http://download.bytelang.cn/plugin/v1.3.1/libVideoShowSubtitlePlugin.so)
 
 ---
 
@@ -94,6 +103,7 @@ plugin:
 * [v1.1.0](http://download.bytelang.cn/plugin/v1.1.0/libVideoShowImagePlugin.so)
 * [v1.2.0](http://download.bytelang.cn/plugin/v1.2.0/libVideoShowImagePlugin.so)
 * [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowImagePlugin.so)
+* [v1.3.1](http://download.bytelang.cn/plugin/v1.3.1/libVideoShowImagePlugin.so)
 
 ### VideoShowProcessPlugin
 VideoShowProcessPlugin提供视频播放过程中，指定位置添加当前播放媒体资源文件进度条。样式为"00:00:00 / 00:00:00"
@@ -107,6 +117,7 @@ plugin:
       y: "100" # y坐标
 ```
 * [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowProcessPlugin.so)
+* [v1.3.1](http://download.bytelang.cn/plugin/v1.3.1/libVideoShowProcessPlugin.so)
 
 ### VideoShowPlayListPlugin
 VideoShowPlayListPlugin提供视频播放过程中，指定位置添加当前播放媒体资源列表打印
@@ -123,3 +134,4 @@ plugin:
       count: 5 # 设置显示至多媒体文件数量
 ```
 * [v1.3.0](http://download.bytelang.cn/plugin/v1.3.0/libVideoShowPlayListPlugin.so)
+* [v1.3.1](http://download.bytelang.cn/plugin/v1.3.1/libVideoShowPlayListPlugin.so)

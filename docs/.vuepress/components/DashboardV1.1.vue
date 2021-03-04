@@ -88,24 +88,36 @@ export default {
   name: "DashboardSidebar",
   data(){
     return {
-      host: 'http://127.0.0.1:4156/v1.1',
+      host: 'http://127.0.0.1:4156',
       run: {},
       response: '{}',
       prefix: '',
       items: [
+        {
+          group_title: '主程序',
+          children: [
+            {
+              title: '获取当前版本信息',
+              method: 'get',
+              path: '/version',
+              query: [],
+              data: [],
+            }
+          ]
+        },
         {
           group_title: '媒体资源',
           children: [
             {
               title: '获取当前推流资源列表',
               method: 'get',
-              path: '/media',
+              path: '/v1.1/media',
               query: [],
               data: [],
             },
             {
               title: '新增推流媒体资源',
-              path: '/media',
+              path: '/v1.1/media',
               method: 'post',
               query: [],
               data: [
@@ -118,7 +130,7 @@ export default {
             },
             {
               title: '删除推流媒体资源',
-              path: '/media/{unique}',
+              path: '/v1.1/media/{unique}',
               method: 'delete',
               query: [],
               data: [],
@@ -131,42 +143,50 @@ export default {
             {
               title: '获取已运行时长',
               method: 'get',
-              path: '/player/run-time',
+              path: '/v1.1/player/run-time',
               query: [],
               data: [],
             },
             {
               title: '获取当前播放器状态',
               method: 'get',
-              path: '/player/status',
+              path: '/v1.1/player/status',
               query: [],
               data: [],
             },
             {
+              title: '获取当前播放画面',
+              method: 'get',
+              path: '/v1.1/player/snapshot',
+              query: [],
+              data: [],
+              type: "image",
+            },
+            {
               title: '获取当前播放媒体文件',
               method: 'get',
-              path: '/player/media/current',
+              path: '/v1.1/player/media/current',
               query: [],
               data: [],
             },
             {
               title: '跳过当前播放媒体文件',
               method: 'post',
-              path: '/player/media/current/skip',
+              path: '/v1.1/player/media/current/skip',
               query: [],
               data: [],
             },
             {
               title: '暂停当前播放媒体文件',
               method: 'post',
-              path: '/player/media/current/pause',
+              path: '/v1.1/player/media/current/pause',
               query: [],
               data: [],
             },
             {
               title: '继续当前播放媒体文件',
               method: 'post',
-              path: '/player/media/current/continue',
+              path: '/v1.1/player/media/current/continue',
               query: [],
               data: [],
             },
@@ -178,14 +198,14 @@ export default {
             {
               title: '获取输出资源列表',
               method: 'get',
-              path: '/output',
+              path: '/v1.1/output',
               query: [],
               data: [],
             },
             {
               title: '添加输出资源',
               method: 'post',
-              path: '/output',
+              path: '/v1.1/output',
               query: [],
               data: [
                 {key: 'path', type: 'string', required: true, placeholder: '有效的rtmp或文件绝对路径'},
@@ -194,7 +214,7 @@ export default {
             {
               title: '删除输出资源',
               method: 'delete',
-              path: '/output/{unqie}',
+              path: '/v1.1/output/{unqie}',
               query: [],
               data: [],
             }
@@ -206,14 +226,14 @@ export default {
             {
               title: '获取已加载插件列表',
               method: 'get',
-              path: '/plugin',
+              path: '/v1.1/plugin',
               query: [],
               data: [],
             },
             {
               title: '添加插件',
               method: 'post',
-              path: '/plugin',
+              path: '/v1.1/plugin',
               query: [],
               data: [
                 {key: 'file', type: 'string', required: true, placeholder: '插件命名名称'},
@@ -224,14 +244,14 @@ export default {
             {
               title: '删除插件',
               method: 'delete',
-              path: '/plugin/{unqiue}',
+              path: '/v1.1/plugin/{unqiue}',
               query: [],
               data: [],
             },
             {
               title: '更新插件参数(v0.4.6+)',
               method: 'post',
-              path: '/plugin/params',
+              path: '/v1.1/plugin/params',
               query: [],
               data: [
                 {key: 'unique', type: 'string', required: true, placeholder: '插件唯一标识'},
@@ -279,7 +299,12 @@ export default {
         params,
         data,
       }).then(data=>{
-        this.response = data.data;
+        let mime = data.headers['content-type'];
+        if(mime === 'image/jpeg'){
+          window.open(data.config.baseURL+data.config.url);
+        }else{
+          this.response = data.data;
+        }
       }).catch(err=>{
         if(err.response !== undefined){
           if(err.response.status === 422 || err.response.status === 400){

@@ -1,4 +1,4 @@
-let version = "v0.4.7-beta1";
+let version = "v0.4.7-beta2";
 module.exports =
 	[
 		{
