@@ -97,7 +97,7 @@ export default {
           group_title: '主程序',
           children: [
             {
-              title: '获取当前版本信息',
+              title: '获取当前版本信息(v0.4.7+)',
               method: 'get',
               path: '/version',
               query: [],
@@ -155,7 +155,7 @@ export default {
               data: [],
             },
             {
-              title: '获取当前播放画面',
+              title: '获取当前播放画面(v0.4.7+)',
               method: 'get',
               path: '/v1.1/player/snapshot',
               query: [],
