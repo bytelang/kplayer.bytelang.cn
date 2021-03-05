@@ -47,4 +47,7 @@ footer: Copyright © 2019-present ByteLang Studio
     <div class="col-md-3">
         <a target="_blank" href="https://live.bilibili.com/22342347">simplerl</a>
     </div>
+    <div class="col-md-3">
+        <a target="_blank" href="https://live.bilibili.com/839437">心伤的天堂</a>
+    </div>
 </div>
