@@ -50,4 +50,7 @@ footer: Copyright © 2019-present ByteLang Studio
     <div class="col-md-3">
         <a target="_blank" href="https://live.bilibili.com/839437">心伤的天堂</a>
     </div>
+    <div class="col-md-3">
+        <a target="_blank" href="https://live.bilibili.com/6680227">MaxChiron</a>
+    </div>
 </div>
