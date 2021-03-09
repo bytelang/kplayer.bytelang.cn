@@ -6,7 +6,7 @@ title: 完整配置文件
 ===
 
 ```yaml
-version: "1.0.0"
+version: "1.1.0"
 player:
   media:
     list:
@@ -36,6 +36,9 @@ player:
     path:
       - "rtmp://127.0.0.1:1379/live"
       - "rtmp://127.0.0.1:1379/push"
+
+  resource:
+    font_name: 'fzhtjw'
 
   connect:
     type: single
