@@ -36,6 +36,11 @@ footer: Copyright © 2019-present ByteLang Studio
 
 
 ## 谁在使用kplayer :yum:
+<style>
+.col-md-3{
+    padding: 5px 0;
+}
+</style>
 <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap-grid.min.css" rel="stylesheet">
 <div class="row" style="padding-bottom: 1rem">
     <div class="col-md-3">
@@ -53,4 +58,7 @@ footer: Copyright © 2019-present ByteLang Studio
     <div class="col-md-3">
         <a target="_blank" href="https://live.bilibili.com/6680227">MaxChiron</a>
     </div>
+    <div class="col-md-3">
+            <a target="_blank" href="https://live.bilibili.com/39368">看辣鸡视频就去我空间</a>
+        </div>
 </div>
